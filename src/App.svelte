@@ -29,14 +29,8 @@
   </ul>
 </main>
 
-<style>
-  li {
-    list-style: none;
-  }
-  li:hover {
-    cursor: pointer;
-  }
-  .active {
-    text-decoration: line-through;
-  }
+<style global lang="postcss">
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 </style>
